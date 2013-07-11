@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="../Downloads/TileGameResources/TileGameResources/tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="../Downloads/TileGameResources/TileGameResources/meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzNmVuP0zAQhQ08rKASLfCAFqQ2gNQsIK33//86Eikjzs6euTh2BQ9HTVtf5vN4xo59LqWcF9XtM6ML+X6/6EtCX7c6D6Bsv14frxa9NvTGaRO5V45vi74n9GMr/0DExgvHbO3jnaG3jq0Hxwe6vxYO9Edt8A1yCGMrR6RR/vDGaxRHNZ5bOXR8ZHzxWF7OqzM8f1j0cdNxk3z/lPSF1BsdH3v0CPacGupJnZ+LfiX0W/kD48OaV+8TfTCbshxS3vqfjbknnTs0R9Y2XVZi4M7Qcfus5D/h0Pkoy8H8IbZdNzHbR+vU4Q+23ukxvpbnPP8jB8t9EcclIW8u6vzbyqHjPOIQu/W8Qj01PrO6jCMbI1kOZBFF492qnnkltkTz6kpk2aP59Pyx/OJxRH7JxgezX75PSppX/z8Zv4+Ic7beRf7QNrEyGdYRHKz/zBrtzat/ER+efdKu9V52S47ethiHtX/G2Fp/k/i19iKRrL0NyxlWvvHmlccxA8f6HfczexXlP8tuK4+2+mMUh4y5ZT/6ycstev+0l2NKSto5lNz7sHC0zlfrfWbV0404cMzFL5Z9LftPb3yEYzY4MmuK5Y8euxmHF0uePzJro/bHhbRlyTtD0+dpUU5o4ZiINEfdxDh03fXMxjpfQx06OTKy4py1pWOkhcPK2dH6keUQoT9G5XBP2ie4nmPf63ixeSo+sDhwzG7JYnHofu/KS18eEv7w1u3Phqx3CqZWDjw3lRyU5Yj209X4He2tpPwE9mE/3jrIzn81B+YwzYEsFcSYavH5RMih18bRHC3v0Bl/4fO0fXocej3Hc2w8v85wyLnRCCbG2OKPyRFbGz1/IIOuW6GN6I5O3gF7OKI9ls5XEQ/Takt094A5q4Ujs0/UHFKm5X1S7mtuxZGV5tizBu7lwH2JXs/XMpm9qGgEx/EG/mjlEBbGEZ2H9/jDyglYZm+uZBzS1lyer9e9HNZ9m/aZzjOZ+4aIA1l6OKwx9u7jkCe6M/E49B4KOaIYsTjk7I29i54KH3+2NuhyFsdc/uYXHMtejqw/orFn67XnD5xbOA5SPrq7ZhzWPW8mDjweyx8zeZa5KuW99bLVH3vPedlZD+PA3KX9kVWGY6QwbjQLxs1eDqkvWuPeevfsEcYYm4OibHtY/w/kTQto
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50">
+  <object name="SpawnPoint" x="22" y="299" width="29" height="25"/>
+ </objectgroup>
+ <layer name="Meta" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzNWVsKwzAM6/du097/cKOwQjB+SHKSThC2prFsxXa6x3kcx5kMD3Y+W2vx+Q3Ej+dXHRmnquMCfV2/4fnM4snuVeu6+UA4xvuzNKprq3xcgZ310dGR5WdGPjIgdW7XsP3HgOkPBV0e5uzI8lHVVdVXK/a+czZmeipf3j2Uo+LunPER7y6oOhCNK3s488XqYLhRXxXfTh0nsQZ9H9mOcyt0dPuLBasD2euIN1vLXKP+ZvQHejZ0xiwdM3l361BrfmVvPPydmKM5ReubQHvQXq/Ql+0zUo8M/44csZ9jUUR7MAsPVxQ/c2YifiyXt045Myuoe4ae14gdqmOcZ79PqJjxDDgCjpWxrq4rZv/Z58xOHVleqliu4P0bOrL4vXkbc2Sfcc7o82qfViGrh2jtv2kYY4uuEVtWR+Wj6jWkjqvaVXRU+4KeA3a919vWDvHF6GBrN/JZxeTxVDa7+t7LRRSTF9uMmO+h/raOgO3Bjo7VY4cOxD4C0h87dSg1FNmM/z+9oUOBmo8q37t1VFDyMd7r6mB66ob9LzOLFelBpc7HeBBfno6MV9Fh12V2yH6g+UB1qHvM1herA41hvPZekfhRTYgOFt18qP2O2tuYlDqMNLExoz3Wra9uf3TA5oPh3YlZufB4x1c7vwJoDTJc9/gCFUXIMw==
+  </data>
+ </layer>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2UEKgCAQhWFv0q4DeP/DRYtAIu3hxDBj/weCq/Q5QeSUYlc/eEYEmXKM9popBwAArSoM+Fn9vFfPBwAA8CdbZ55Fxj0DF/6tAEDD9x5PZu7DI75LEXvXuzDuIuZoKRlOXjne1lF6O7P18GTtV3nk6K2h9N3UPFHqYbVSDrKMHVQADww=
+  </data>
+ </layer>
+ <objectgroup name="EnemySpawn1" width="50" height="50">
+  <object name="EnemySpawn1" x="396" y="661" width="30" height="25">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn2" x="662" y="348" width="29" height="29">
+   <properties>
+    <property name="Enemy" value="2"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn3" x="309" y="970" width="25" height="27">
+   <properties>
+    <property name="Enemy" value="3"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn4" x="199" y="1401" width="31" height="25">
+   <properties>
+    <property name="Enemy" value="4"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn5" x="831" y="1508">
+   <properties>
+    <property name="Enemy" value="5"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn6" x="1074" y="1237" width="31" height="24">
+   <properties>
+    <property name="Enemy" value="6"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn7" x="1311" y="1527" width="30" height="27">
+   <properties>
+    <property name="Enemy" value="7"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn8" x="1392" y="1392" width="35" height="33">
+   <properties>
+    <property name="Enemy" value="8"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn9" x="1229" y="1179" width="30" height="21">
+   <properties>
+    <property name="Enemy" value="9"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn10" x="1339" y="858" width="29" height="27">
+   <properties>
+    <property name="Enemy" value="10"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn11" x="922" y="786" width="36" height="32">
+   <properties>
+    <property name="Enemy" value="11"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn12" x="1353" y="730" width="38" height="34">
+   <properties>
+    <property name="Enemy" value="12"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn13" x="1452" y="604" width="56" height="31">
+   <properties>
+    <property name="Enemy" value="13"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn14" x="1238" y="357" width="47" height="35">
+   <properties>
+    <property name="Enemy" value="14"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn15" x="1471" y="173">
+   <properties>
+    <property name="Enemy" value="15"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn16" x="1160" y="14">
+   <properties>
+    <property name="Enemy" value="16"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
